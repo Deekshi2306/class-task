@@ -10,7 +10,7 @@ function FacultyList() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const API_URL = process.env.REACT_APP_API_URL_FACULTY || "http://localhost:5000/api/faculty";
+  const API_URL = process.env.REACT_APP_API_URL_FACULTY || "https://class-task-1.onrender.com";
 
   useEffect(() => {
     fetchFaculty();
