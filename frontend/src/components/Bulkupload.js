@@ -25,7 +25,7 @@ function BulkUpload() {
 
     try {
       const response = await axios.post(
-        `https://class-task-1.onrender.com${uploadType}`,
+        `https://class-task-w4e9.onrender.com${uploadType}`,
         formData,
         {
           headers: {
