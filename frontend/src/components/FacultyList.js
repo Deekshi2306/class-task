@@ -29,7 +29,7 @@ function FacultyList() {
       }
     } catch (error) {
       console.error("Error fetching faculty:", error);
-      setError("Failed to fetch faculty data");
+      setError("HI");
       setFaculty([]); // Set to empty array on error
     } finally {
       setLoading(false);
